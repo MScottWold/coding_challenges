@@ -13,4 +13,11 @@ bundle install
 ruby chess/game.rb
 ```
 
+### Minesweeper
+
+```
+# Start the game
+ruby minesweeper/minesweeper.rb
+```
+
 ## More to come...
