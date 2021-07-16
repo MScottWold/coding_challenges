@@ -1,0 +1,53 @@
+html, body, figure,
+h1, div {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: inherit;
+  font: inherit;
+  text-decoration: inherit;
+  text-align: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 72px;
+  text-align: center;
+  margin: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.game {
+  background-color: darkcyan;
+  border: 5px solid darkslategrey;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  margin: 0 auto;
+  box-shadow: 3px 3px 3px darkslategrey;
+}
+
+.row > div {
+  width: 20px;
+  height: 20px;
+}
+
+.snake, .apple {
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px darkslategrey;
+}
+
+.snake {
+  background-color: darkgreen;
+}
+
+.apple {
+  background-color: darkred;
+}

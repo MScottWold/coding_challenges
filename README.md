@@ -20,4 +20,8 @@ ruby chess/game.rb
 ruby minesweeper/minesweeper.rb
 ```
 
+### Snake
+
+Open the index file in a browser window
+
 ## More to come...
