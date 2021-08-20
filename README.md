@@ -16,6 +16,8 @@ better understand some of the main components of Rails (e.g. ActiveRecord, Rack,
 components into a single project to create a fully working Rails Lite and I also
 added some additional features, just for fun. 
 
+<img width="510" alt="rails_lite" src="https://user-images.githubusercontent.com/10493350/130298934-2af17313-49c4-4e25-a72e-6ce3f51b3810.png">
+
 ## Goal
 
 The main goal with Rails Lite was to recreate a slimmed down version of Ruby on 
@@ -214,6 +216,8 @@ Rails code.
 
 # Chess
 
+<img width="234" alt="chess" src="https://user-images.githubusercontent.com/10493350/130298782-88af808b-4aaa-4719-980b-07d4936496f8.png">
+
 Simple chess running in the console that uses keyboard controls.
 
 ### Get it running
@@ -236,6 +240,8 @@ enter: select piece, or once piece is selected, move to space
 
 # Minesweeper
 
+<img width="461" alt="minesweeper" src="https://user-images.githubusercontent.com/10493350/130298800-50e17a6c-2079-4210-8f75-633f56e2d20d.png">
+
 Minesweeper running in the console
 
 ### Get it running
@@ -251,6 +257,8 @@ $ ruby minesweeper/minesweeper.rb
 - flag and track bombs
 
 # Snake
+
+<img width="337" alt="snake" src="https://user-images.githubusercontent.com/10493350/130298950-fc8ac092-1cc2-4b17-ab60-cbe10e96d527.png">
 
 Basic snake game running on a browser
 
