@@ -1,0 +1,13 @@
+<h1><%= @type %>, <%= @message %></h1>
+
+<h2>Code Snippet:</h2>
+<% @code_preview.each do |line| %>
+<p><%= line %></p>
+<% end %>
+
+<h2>Error Trace</h2>
+<ol>
+<% @trace.each do |line| %>
+  <li><%= line %></li>
+<% end %>
+</ol>

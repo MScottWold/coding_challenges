@@ -1,0 +1,14 @@
+<img src="/public/images/banner.jpg" alt="image of lake">
+<h1><%= @author.username %>'s Posts</h1>
+
+<ul>
+<% @author.posts.each do |post| %>
+  <li><a href="/posts/<%= post.id %>"><%= post.title %></a></li>
+<% end %>
+</ul>
+
+<a href="/authors">All authors</a>
+<br>
+<a href="/posts">All posts</a>
+<br>
+<a href="/comments">All comments</a>

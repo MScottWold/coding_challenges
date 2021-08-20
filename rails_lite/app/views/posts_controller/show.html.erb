@@ -1,0 +1,18 @@
+<img src="/public/images/banner.jpg" alt="image of lake">
+<h1>Post</h1>
+<p>from <%= @post.author_name %></p>
+<h2><%= @post.title %></h2>
+<p><%= @post.body %></p>
+
+<ul>
+<% @comments.each do |comment| %>
+  <li><%= "#{comment.body} - #{comment.username}" %></li>
+<% end %>
+</ul>
+<br>
+<a href="/comments/new?post_id=<%= @post.id %>">make comment</a>
+<br>
+<br>
+<a href="/posts">All posts</a>
+<br>
+<a href="/authors">All authors</a>

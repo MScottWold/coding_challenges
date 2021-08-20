@@ -1,0 +1,30 @@
+<img src="/public/images/banner.jpg" alt="image of lake">
+<h1>Post Feed</h1>
+<br>
+<% if flash[:notice] %>
+  <p>Notice: <%= flash[:notice] %></p>
+<% end %>
+
+<pre>Post Data: </pre>
+<ul>
+<% @posts.each do |post| %>
+  <li>
+    <ul>
+      <li>Post id: <%= post.id %></li>
+      <li>Title: <a href="/posts/<%= post.id %>"><%= post.title %></a></li>
+      <% if post.author %>
+      <li>Author: <a href="/authors/<%= post.author_id %>"><%= post.author_name %></a></li>
+      <% else %>
+      <li>Author: <%= post.author_name %></li>
+      <% end %>
+    </ul>
+  </li>
+<br>
+<% end %>
+</ul>
+
+<a href="/posts/new">New Post!</a>
+<br>
+<a href="/authors">All authors</a>
+<br>
+<a href="/comments">All comments</a>

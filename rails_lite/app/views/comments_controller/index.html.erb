@@ -1,0 +1,15 @@
+<img src="/public/images/banner.jpg" alt="image of lake">
+<h1>Comment Feed</h1>
+<ul>
+  <% @comments.each do |comment| %>
+  <li>
+    Response to <%= comment.post_author %>:
+    <a href="/posts/<%= comment.post_id %>"><%= comment.body %></a>
+    - <%= comment.username %>
+  </li>
+  <% end %>
+</ul>
+<br>
+<a href="/posts">All posts</a>
+<br>
+<a href="/authors">All authors</a>

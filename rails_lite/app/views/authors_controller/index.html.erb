@@ -1,0 +1,22 @@
+<img src="/public/images/banner.jpg" alt="image of lake">
+
+<h1>All the authors</h1>
+<br>
+<% if flash[:notice] %>
+  <p>Notice: <%= flash[:notice] %></p>
+<% end %>
+
+<pre>Author Data: </pre>
+<% @authors.each do |author| %>
+<ul>
+  <li>Id: <%= author.id %></li>
+  <li>Username: <a href="/authors/<%= author.id %>"><%= author.username %></a></li>
+</ul>
+<br>
+<% end %>
+
+<a href="/authors/new">New author!</a>
+<br>
+<a href="/posts">All posts</a>
+<br>
+<a href="/comments">All comments</a>

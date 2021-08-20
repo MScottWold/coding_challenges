@@ -1,0 +1,19 @@
+<img src="/public/images/banner.jpg" alt="image of lake">
+<br>
+<% if flash[:errors] %>
+  <% flash[:errors].each do |error| %>
+    <p><%= error %></p>
+  <% end %>
+<% end %>
+
+<form action="/authors" method="POST">
+  <label>Form Authenticity Token
+    <input type="text" name="authenticity_token" value="<%= form_authenticity_token %>">
+  </label>
+
+  <label>Username
+    <input type="text" name="author[username]" value="<%= @author.username %>">
+  </label>
+
+  <input type="submit">
+</form>
