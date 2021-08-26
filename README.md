@@ -1,8 +1,8 @@
 # Assorted Problem Sets
-This repo contains a sample of some coding chellenges I've done. It's purpose 
-is to document the type of code I've been writing, not to claim credit for 
-originating the idea behind any of these projects. These were coding exercises, 
-not original projects.
+This repo contains a selected sample of a few of the coding chellenges I've 
+done. It's purpose is to document the type of code I've been writing, not to 
+claim credit for originating the idea behind any of these projects. These were 
+coding exercises, not original projects.
 
 ## Installation
 ```
@@ -12,7 +12,8 @@ $ bundle install
 # Rails Lite
 
 Rails Light started as a series of smaller exercises designed to recreate and 
-better understand some of the main components of Rails (e.g. ActiveRecord, Rack, associations, ORM, MVC architecture, etc.). I decided to combine those 
+better understand some of the main components of Rails (e.g. ActiveRecord, Rack, 
+associations, ORM, MVC architecture, etc.). I decided to combine those 
 components into a single project to create a fully working Rails Lite and I also
 added some additional features, just for fun. 
 
